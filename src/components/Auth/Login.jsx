@@ -13,7 +13,7 @@ const Login = ({ handleLogin }) => {
     <div className="flex h-screen w-screen items-center justify-center">
       <div className="border-2 rounded-xl border-emerald-600 p-20">
         <form onSubmit={(e) => { submitHandler(e); }} className="flex flex-col items-center justify-center">
-        <p>pass:e@e.com:123], [admin@me.com:123</p>
+       <p className="text-white">pass:e@e.com:123], [admin@me.com:123</p>
           <input value={email} onChange={(e) => { setEmail(e.target.value); }}
             required
             className="outline-none bg-transparent border-2 border-emerald-600 text-xl py-3 px-5 rounded-full placeholder:text-gray-400"
